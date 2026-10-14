@@ -1,0 +1,18 @@
+# Data (published in GitHub Releases, never committed)
+data/
+*.parquet
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,3 @@
+# Minimal dependencies for the GitHub Actions collector
+pandas>=2.0
+pyarrow>=14
