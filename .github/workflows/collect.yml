@@ -1,8 +1,6 @@
 name: collect-velib
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"   # GitHub's minimum interval; real runs are often delayed by a few minutes
   workflow_dispatch: {}      # manual trigger, handy for testing
 
 permissions:
